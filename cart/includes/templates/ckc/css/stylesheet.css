@@ -37,7 +37,6 @@ a:hover,
 #navMain ul li a:hover,
 #navCatTabs ul li a:hover {
 	color: red;
-	text-shadow: 0px 0px 10px grey;
 	}
 
 h1, h2, h3 {
@@ -137,6 +136,10 @@ LABEL.checkboxLabel, LABEL.radioButtonLabel {
 	float: middle;
 	}
 
+.category-top {
+	padding: 2em 0;
+}
+
 LABEL.inputLabel {
 	width: 11em;
 	float: left;
@@ -193,8 +196,7 @@ HR {
 
 /*wrappers - page or section containers*/
 #indexDefaultMainContent {
-	/*border-right: 1px solid silver;
-	border-left: 1px solid silver;*/
+	color: black;
 }
 
 #navColumnOne {
@@ -277,7 +279,7 @@ HR {
 
 #navMain ul, #navSupp ul, #navCatTabs ul  {
 	margin: 0;
-	padding:  0.5em 0em;
+	padding:  2em 0em;
 	list-style-type: none;
 	text-align: center;
 	font-weight: 700;
@@ -307,8 +309,6 @@ HR {
 
 #navSupp a:hover {
 	color: black !important;
-	text-decoration: underline;
-	text-shadow: 0px 0px 10px Cornsilk;
 	}
 
 #navEZPagesTOCWrapper {
@@ -337,6 +337,10 @@ HR {
 #navCategoryIcon, .buttonRow, #indexProductListCatDescription {
 	margin: 0.5em;
 	}
+
+#indexDefaultHeading {
+	font-family: 'Satisfy', cursive;
+}
 
 #navMainSearch {
 	float: right;
@@ -574,7 +578,6 @@ h3.rightBoxHeading a {
 
 h3.rightBoxHeading a:hover {
 	color: black !important;
-	text-shadow: 0px 0px 10px Cornsilk;
 	}
 
 .rightBoxContent {
