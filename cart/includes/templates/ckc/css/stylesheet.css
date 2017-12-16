@@ -129,8 +129,8 @@ LABEL.checkboxLabel, LABEL.radioButtonLabel {
 	}
 
 #logo > a > img {
-	height: 40%;
-	width: 40%;
+		width: 30%;
+		height: auto;
 	}
 
 .centerBoxContents, .specialsListBoxContents, .categoryListBoxContents, .centerBoxContentsAlsoPurch, .attribImg {
@@ -257,6 +257,7 @@ HR {
 	margin: 0em;
 	font-size: 0.9em;
 	}
+
 .navNextPrevList {
 	display: inline;
 	white-space: nowrap;
@@ -268,8 +269,8 @@ HR {
 #navMainWrapper {
 	font-weight: bold;
 	color: black;
-	padding: 3px;
 	}
+
 #navSuppWrapper {
 	color: #ffffff;
 }

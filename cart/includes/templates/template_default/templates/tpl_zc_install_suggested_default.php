@@ -9,7 +9,7 @@
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
  * @version $Id: tpl_zc_install_suggested_default.php 14188 2009-08-17 22:59:15Z drbyte $
  */
-$relPath = (file_exists('includes/templates/template_default/images/logo.gif')) ? '' : '../';
+$relPath = (file_exists("design/Corkys.png")) ? '' : '../';
 $instPath = (file_exists('zc_install/index.php')) ? 'zc_install/index.php' : (file_exists('../zc_install/index.php') ? '../zc_install/index.php' : '');
 $docsPath = (file_exists('docs/index.html')) ? 'docs/index.html' : (file_exists('../docs/index.html') ? '../docs/index.html' : '');
 ?>
@@ -36,7 +36,7 @@ $docsPath = (file_exists('docs/index.html')) ? 'docs/index.html' : (file_exists(
 <body style="margin: 20px">
 <div style="width: 730px; background-color: #ffffff; margin: auto; padding: 10px; border: 1px solid #cacaca;">
 <div>
-<img src="<?php echo $relPath; ?>includes/templates/template_default/images/logo.gif" alt="Zen Cart&trade;" title=" Zen Cart&trade; " width="192" height="64" border="0" />
+<img src="<?php echo $relPath; ?>design/Corkys.png" alt="Zen Cart&trade;" title=" Zen Cart&trade; " width="192" height="64" border="0" />
 </div>
 <h1>Hello. Thank you for loading Zen Cart&trade;.</h1>
 <h2>You are seeing this page for one or more reasons:</h2>
