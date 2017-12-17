@@ -38,7 +38,7 @@ a:link, #navEZPagesTOC ul li a {
 	}
 
 a:active {
-	color: red;
+	color: #ff5c5c;
 	text-decoration: none;
 	}
 
@@ -46,7 +46,7 @@ a:hover,
 #navEZPagesTOC ul li a:hover,
 #navMain ul li a:hover,
 #navCatTabs ul li a:hover {
-	color: red;
+	color: #ff5c5c;
 	}
 
 /*--------------------- headers -*/
