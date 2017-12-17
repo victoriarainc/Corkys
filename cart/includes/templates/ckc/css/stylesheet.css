@@ -13,6 +13,8 @@
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Trocchi', serif;*/
 
+
+/*--------- GLOBAL ----------*/
 * {
 	font-family: 'Trocchi', serif;
 }
@@ -21,6 +23,14 @@ body {
 	margin: 0;
 	font-size: 10pt;
 	}
+
+li {
+		list-style: none;
+		padding-left: none;
+		line-height: 2;
+}
+
+/*---------------------- links -*/
 
 a:link, #navEZPagesTOC ul li a {
 	color: black;
@@ -39,6 +49,8 @@ a:hover,
 	color: red;
 	}
 
+/*--------------------- headers -*/
+
 h1, h2, h3 {
 	font-family: 'Julius Sans One', sans-serif;
 }
@@ -56,29 +68,50 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 h2 {
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 }
 
 h3 {
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 }
 
 h4 {
-	font-size: .8rem;
+	font-size: 1rem;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 h5 {
-	font-size: .6rem;
+	font-size: .9rem;
 }
 
 h6 {
-	font-size: .4rem;
+	font-size: .8rem;
 }
 
+/*-------- HOME --------------*/
+.after_banner--container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.after_banner {
+	width: 30%;
+	background-color: #ff5c5c;
+	padding: .5em;
+}
+
+.after_banner--list {
+	padding: 0;
+}
+
+.home_banner--text {
+
+}
 
 CODE {
 	font-family: arial, verdana, helvetica, sans-serif;
@@ -197,12 +230,6 @@ HR {
 /*wrappers - page or section containers*/
 #indexDefaultMainContent {
 	color: black;
-}
-
-#navColumnOne {
-}
-
-#navColumnTwo {
 }
 
 #headerWrapper {
