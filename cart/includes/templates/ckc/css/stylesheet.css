@@ -9,14 +9,14 @@
  */
 
  /** Fonts **/
-/*font-family: 'Mr Dafoe', cursive;
+/*font-family: 'Poppins', sans-serif;
 font-family: 'Julius Sans One', sans-serif;
 font-family: 'Trocchi', serif;*/
 
 
 /*--------- GLOBAL ----------*/
 * {
-	font-family: 'Trocchi', serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -69,23 +69,27 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 2rem;
+	letter-spacing: .5em;
 }
 
 h2 {
 	font-size: 1.7rem;
+	letter-spacing: .4em;
 }
 
 h3 {
 	font-size: 1.4rem;
+	letter-spacing: .3em;
 }
 
 h4 {
 	font-size: 1rem;
-	font-family: 'Julius Sans One', sans-serif;
+	letter-spacing: .2em;
 }
 
 h5 {
 	font-size: .9rem;
+	letter-spacing: .1em;
 }
 
 h6 {
@@ -103,6 +107,8 @@ h6 {
 	width: 30%;
 	background-color: #ff5c5c;
 	padding: .5em;
+	color: white;
+	font-family: 'Julius Sans One', sans-serif;
 }
 
 .after_banner--list {
@@ -366,7 +372,6 @@ HR {
 	}
 
 #indexDefaultHeading {
-	font-family: 'Satisfy', cursive;
 }
 
 #navMainSearch {

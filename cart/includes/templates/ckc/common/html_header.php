@@ -35,7 +35,7 @@ require(DIR_WS_MODULES . zen_get_module_directory('meta_tags.php'));
 <link rel="icon" href="<?php echo FAVICON; ?>" type="image/x-icon" />
 <link rel="shortcut icon" href="<?php echo FAVICON; ?>" type="image/x-icon" />
 <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Trocchi" rel="stylesheet">
 <?php } //endif FAVICON ?>
 
