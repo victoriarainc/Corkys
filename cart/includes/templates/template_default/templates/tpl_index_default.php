@@ -14,12 +14,18 @@
  */
 ?>
 <div class="centerColumn" id="indexDefault">
-<h1 id="indexDefaultHeading"><?php echo HEADING_TITLE; ?></h1>
+<div class="headingBanner">
+<h2 id="indexDefaultHeading"><?php echo HEADING_TITLE; ?></h1>
 
 <?php if (SHOW_CUSTOMER_GREETING == 1) { ?>
-<h2 class="greeting"><?php echo zen_customer_greeting(); ?></h2>
+<h3 class="greeting"><?php echo zen_customer_greeting(); ?></h2>
 <?php } ?>
 
+<div>
+  <p>ANNOUNCING OUR NEW RETAIL LOCATIONS</p>
+  <p>Find our yummy Kettle Corn and Caramel Corn at</p>
+  <p>WHOLE FOODS in North Raleigh, Cary, and Charlotte! Also find us at THE BUTCHER'S MARKET locations in Raleigh, Cary and Charlotte</p>
+</div>
 <!-- deprecated - to use uncomment this section
 <?php if (TEXT_MAIN) { ?>
 <div id="" class="content"><?php echo TEXT_MAIN; ?></div>
@@ -36,7 +42,8 @@
  * get the Define Main Page Text
  */
 ?>
-<div id="indexDefaultMainContent" class="content"><?php require($define_page); ?></div>
+</div>
+
 <?php } ?>
 
 <?php
@@ -77,6 +84,7 @@
  * display the Upcoming Products Center Box
  */
 ?>
+
 <?php include(DIR_WS_MODULES . zen_get_module_directory(FILENAME_UPCOMING_PRODUCTS)); ?><?php } ?>
 
 

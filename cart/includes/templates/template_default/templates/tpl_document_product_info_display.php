@@ -101,6 +101,12 @@ if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == 
             }
     $display_button = zen_get_buy_now_button($_GET['products_id'], $the_button);
   ?>
+  <?php
+  /**
+   * display the product atributes
+   */
+    require($template->get_template_dir('/tpl_modules_attributes.php',DIR_WS_TEMPLATE, $current_page_base,'templates'). '/tpl_modules_attributes.php'); ?>
+
   <?php if ($display_qty != '' or $display_button != '') { ?>
     <div id="cartAdd">
     <?php
@@ -130,11 +136,6 @@ if (CUSTOMERS_APPROVAL == 3 and TEXT_LOGIN_FOR_PRICE_BUTTON_REPLACE_SHOWROOM == 
 <?php
   if ($pr_attr->fields['total'] > 0) {
 ?>
-<?php
-/**
- * display the product atributes
- */
-  require($template->get_template_dir('/tpl_modules_attributes.php',DIR_WS_TEMPLATE, $current_page_base,'templates'). '/tpl_modules_attributes.php'); ?>
 <?php
   }
 ?>

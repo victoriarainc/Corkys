@@ -57,6 +57,7 @@ a:hover,
 
 h1, h2, h3 {
 	font-family: 'Julius Sans One', sans-serif;
+	letter-spacing: -.05em;
 }
 
 h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger{
@@ -67,18 +68,12 @@ h4, h5, h6, LABEL, h4.optionName, LEGEND, ADDRESS, .sideBoxContent, .larger{
 	font-size: 1.2em;
 	}
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0.3em 3px;
-}
-
 h1 {
 	font-size: 2rem;
-	letter-spacing: .5em;
 }
 
 h2 {
 	font-size: 1.7rem;
-	letter-spacing: .4em;
 }
 
 h3 {
@@ -88,16 +83,17 @@ h3 {
 
 h4 {
 	font-size: 1rem;
-	letter-spacing: .2em;
+	letter-spacing: .5em;
 }
 
 h5 {
 	font-size: .9rem;
-	letter-spacing: .1em;
+	letter-spacing: .8em;
 }
 
 h6 {
 	font-size: .8rem;
+	letter-spacing: 1em;
 }
 
 /*-------- HOME --------------*/
@@ -743,16 +739,27 @@ LABEL#textAreaReviews {
 	display:none;
 }
 
-#indexDefault {
+.rightBoxContainer {
+	width: auto;
+}
+
+.headingBanner {
+	padding: 1em 2em;
+	box-shadow: 10px 10px 8px #888888;
+	margin: 0 3em 3em 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 #indexDefaultHeading {
-	margin: 0;
+	margin: 1em 0;
 }
 
 .navCatTabs {
 	margin-bottom: 1em;
+}
+
+#cartAdd {
+	width: 100%;
 }
