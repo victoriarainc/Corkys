@@ -763,3 +763,12 @@ LABEL#textAreaReviews {
 #cartAdd {
 	width: 100%;
 }
+
+.productAttributes {
+	display: flex;
+	margin-top: 200px;
+}
+
+.optionName {
+	margin: 0;
+}

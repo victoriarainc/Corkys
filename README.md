@@ -35,3 +35,8 @@ Visual template creation used to display SWOT Analysis, style guides, and sketch
 
 ### ZenCart
 Ecommerce Customer Management System
+
+## Development Environment
+
+### Importing database
+Phpmyadmin is available for database administration at `corkys.local/phpmyadmin`.  Default login for habitat VM's is username: `zencart` and password: `zencart`.  There is already a database named `zencart`, import the database dump into the existing `zencart` database.

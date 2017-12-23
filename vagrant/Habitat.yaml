@@ -1,0 +1,28 @@
+---
+ip: "172.22.22.22"
+memory: 1024
+cpus: 1
+
+sites:
+  - domain: corkys.local
+    dir: cart
+    skeleton: apache.default
+    git_url: null
+    branch: null
+
+## Optional: If you need to override or set a different document-root, add a "docroot: /public" to one of the 'sites' definitions above.
+
+do_default_map: true
+
+## Optional to override folder mapping to a location other than the habitat/web folder on the local PC:
+folders:
+ - map: ../cart/
+   to: /home/vagrant/web/cart/
+   create: true
+
+
+# Optional to add your own public and private key configs ... so you can connect to github/bitbucket logged in as yourself
+
+authorize: ~/.ssh/id_rsa.pub
+keys:
+  - ~/.ssh/id_rsa

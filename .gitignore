@@ -1,7 +1,14 @@
 .git
 
+# Project specefic
 /corkies-backup/
 /rsfyap16_zc1.sql
+/cart/includes/local/
+/cart/00ckc00/includes/local/
+
+# Vagrant extras
+/vagrant/.vagrant/
+/vagrant/habitat/
 
 /cart/00ckc00
 /cart/cache
