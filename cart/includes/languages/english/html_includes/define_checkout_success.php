@@ -1,0 +1,2 @@
+<p><strong>Checkout Success!</strong></p><p>Your order will be processed promptly and shipped out with your preferred method. We thank you for your business!</p>
+<p>If you have any questions, please contact us at sales@corkyskettlecorn.com or 919-720-0116</p>
