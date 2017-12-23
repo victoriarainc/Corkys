@@ -38,5 +38,14 @@ Ecommerce Customer Management System
 
 ## Development Environment
 
+### Vagrant
+The Zencart developers have released a Vagrant file and provisioning scripts to make running local zencart instances simple.  This project is leverages Habitat for local development.  The original Habitat project can be found at https://github.com/zencart/habitat.
+
+1. Ensure Vagrant is installed on the development machine.  This included installing VirtualBox or some other Vagrant-compatable hypervisor.
+
+2. From the vagrant directory run the ``vagrant up`` command.  This will map our local Corkys site into the VM and serve it on an Apache server listening for corkys.local.
+
+3. Update the development machine's hosts file to point corkys.local to 172.22.22.22.
+
 ### Importing database
-Phpmyadmin is available for database administration at `corkys.local/phpmyadmin`.  Default login for habitat VM's is username: `zencart` and password: `zencart`.  There is already a database named `zencart`, import the database dump into the existing `zencart` database.
+Phpmyadmin is available for database administration at corkys.local/phpmyadmin.  Default login for habitat VM's is username: `zencart` and password: `zencart`.  There is already a database named `zencart`, import the database dump into the existing `zencart` database.
